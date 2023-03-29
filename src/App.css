@@ -75,3 +75,30 @@ select {
   font: bold;
   font-weight: 600;
 }
+
+@media screen and (min-width: 1024px) {
+  .form {
+    width: 600px;
+  }
+  .save-Btn {
+    width: 120px;
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .form {
+    width: 360px;
+  }
+  .save-Btn {
+    width: 72px;
+  }
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .form {
+    width: 300px;
+  }
+  .save-Btn {
+    width: 60px;
+  }
+}
